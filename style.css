@@ -1,0 +1,394 @@
+html, body {
+
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+h1,h2{
+
+    user-select: none;
+}
+
+
+.menuList{
+
+    position: fixed;
+    padding: 0px;
+}
+
+
+
+li{
+
+    margin-left: 5vw;
+	padding: 4.7vh 0 5.7vh 30px;
+	list-style: none;
+	
+    background-image: url("menuCircle.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+
+    font-size: calc(10px + 0.9vw);
+    color: azure;
+
+    user-select: none;
+}
+
+
+
+.verticalLine{
+
+    position: fixed;
+
+    top:0px;
+    margin-left: calc(5vw + 8px);
+    margin-top: 0px;
+
+    width: 3px;
+    height: 100vh;
+
+    background-color: azure;
+    border: none;
+}
+
+
+
+.color{
+
+    margin-top: 20px;
+    font-size: calc(10px + 2.3vw);
+    color: azure;
+}
+
+
+
+.content{
+
+    position:relative;
+    margin-left: 20vw;
+    margin-bottom: 30vh;
+
+    width: 70vw;
+    height: 50vw;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.content.end{
+
+    margin-bottom: 50px;
+}
+
+
+
+#welcomeTo{
+
+    position: absolute;
+    top: 17%;
+    left: 10%;
+
+    font-size: 4vw;
+    color: lightblue;
+}
+#myName{
+
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+    font-size: 6vw;
+    color: azure;
+    
+    background-color: rgb(235, 162, 162);
+}
+#site{
+
+    position: absolute;
+    left: 60%;
+    top: 43%;
+
+    font-size: 3vw;
+    color: lightblue;
+}
+
+
+.descriptionText{
+
+    font-size: 1.5vw;
+    color: lightblue;
+}
+
+.descriptionTitleText{
+
+    margin-top: 0px;
+    font-size: 2.5vw;
+    color: azure;
+}
+
+
+
+a {
+
+    color: lightblue;
+    text-decoration: none;
+}
+a:hover{
+
+    color: azure;
+}
+
+
+.project{
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.art{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#project02{
+
+    margin-left: 200%;
+}
+#art02{
+
+    margin-left: 200%;
+}
+
+
+.artImage{
+
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button{
+
+    position: absolute;
+    width: 5%;
+    height: 25%;
+
+    top: 43.5%;
+
+    background: url("arrowButton.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    border: none;
+}
+
+.button:hover{
+
+    background: url("arrowButtonHover.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.button:active{
+
+    background: url("arrowButtonClick.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#left{
+
+    left: 1%;
+}
+#right{
+
+    transform: scaleX(-1);
+    right: 1%;
+}
+#artLeft{
+
+    left: 1%;
+}
+#artRight{
+
+    transform: scaleX(-1);
+    right: 1%;
+}
+
+
+.centerText{
+
+    text-align: center;
+}
+
+
+#projectImage{
+
+    background-repeat: no-repeat;
+
+    width: auto;
+    height: 30vw;
+
+    display:block;
+    margin:auto;
+
+    background-size: 100%;
+}
+
+.projectVideo{
+
+    width: 50vw;
+    height: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .eggSiteMobile{
+
+        content: url("theEggSite_mobile.png");
+    }
+
+    .color{
+
+        margin-top: 20px;
+        font-size: 3vh;
+        color: azure;
+    }
+
+    .descriptionText{
+
+        font-size: 2vh;
+        color: lightblue;
+    }
+
+    .hideFromMobile{
+        Display: none;
+    }
+
+
+    a {
+
+        color: azure;
+        text-decoration: none;
+    }
+
+
+    .descriptionTitleText{
+
+        margin-top: 0px;
+        font-size: 2.5vh;
+        color: azure;
+    }
+    
+    .content{
+
+        position:relative;
+        margin-bottom: 10vh;
+        margin-left: 10vw;
+
+        width: 80vw;
+        height: 130vw;
+
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    #projectImage{
+
+        background-repeat: no-repeat;
+    
+        width: auto;
+        height: 50vw;
+    
+        display:block;
+        margin:auto;
+    
+        background-size: 100%;
+    }
+    
+    #welcomeTo{
+
+        position: absolute;
+        top: 45%;
+        left: 10%;
+
+        font-size: 6vw;
+        color: lightblue;
+    }
+    #myName{
+
+        position: absolute;
+        top: 53%;
+        text-align: center;
+        width: 100%;
+        font-size: 8vw;
+        color: azure;
+
+        background-color: rgb(235, 162, 162);
+    }
+    #site{
+
+        position: absolute;
+        left: 40%;
+        top: 63%;
+
+        font-size: 6vw;
+        color: lightblue;
+    }
+
+    .content.start{
+
+        margin-bottom: 25vh;
+    }
+
+    .projectVideo{
+
+        width: 80vw;
+        height: 50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button{
+
+        position: absolute;
+        width: 15%;
+        height: 15%;
+
+        top: 86.5%;
+
+        background: url("arrowButton.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        border: none;
+    }
+
+    .artImage{
+
+        width: 80vw;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}

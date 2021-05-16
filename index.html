@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="source.js"></script>
+    </head>
+
+    <body style="background-color: rgb(71, 66, 75);">
+
+        <hr class="verticalLine hideFromMobile"/>
+        <ul class="menuList hideFromMobile">
+            <li><a href="#">Início</a></li>
+            <li><a href="#aboutMe">Sobre mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#arts">Artes</a></li>
+            <li><a href="#contactMe">Contato</a></li>
+        </ul>
+
+
+        <div class="content start">
+            <h1 id="myName">Alexandre Borlini</h1>
+            <h2 id="site">Site portifólio</h2>
+        </div>
+
+        <div class="content" id="aboutMe">
+            <h1 class="color">Sobre mim:</h1>
+            <p id = "aboutMeText" class="descriptionText">Estudando Sistemas de informação no Ifes de Colatina, tenho experiência em Java (JavaFx),
+                Html e Css, C++ (OpenGL) e C.<br><br>Um de meus pontos fortes é o Desenho Digital, o que me faz ter familiaridade com Photoshop e
+                Mesas digitalizadoras, além disso estou atualmente aprendendo também modelagem 3D (Blender).<br><br>
+                Alguns de meus trabalhos podem ser vistos abaixo:
+        </div> 
+
+        <div class="content" id="projects">
+
+            <h1 class="color">Meus Projetos:</h1>
+
+        
+            <button class="button" id="right"></button>
+            <button class="button" id="left"></button>
+
+            <div class="project" id="project01">
+
+                <h2  class="descriptionTitleText centerText">Sistema de custos de Bloco de Granito</h2>
+                <p class="descriptionText centerText">Sistema que calcula o custo de um bloco de granito em Reais e Dólar, por M³ e Pé Quadrado. Gera relatórios de 
+                Insumos e Custos mensais e individuais, além de atualizar os arquivos e relatórios do mês com os custos mensais.<br></p>
+                <iframe class="projectVideo" src="https://www.youtube.com/embed/efEH1v1k-so"></iframe>
+
+            </div>
+
+            <div class="project" id="project02">
+
+                <h2  class="descriptionTitleText centerText">Aplicativo de anotação para Android</h2>
+                <p class="descriptionText centerText">Aplicativo que permite a criação de Cadernos e Páginas, podendo criar cadernos dentro dos cadernos,
+                exportar/importar cadernos e estilizar o texto da página.<br></p>
+
+                <iframe class="projectVideo" src="https://www.youtube.com/embed/KwpTFPkCBtQ"></iframe>
+
+            </div>
+
+            <div class="project" id="project03">
+
+                <h2  class="descriptionTitleText centerText">The egg site</h2>
+                <p class="descriptionText centerText">Site com várias receitas tendo como ingrediente principal o ovo. As receitas são de diferentes culturas e cada
+                    uma tem um vídeo explicativo.<br>
+                Link: <a href=https://alexandreborlini.github.io/the-egg-site/>Ir para o site</a><br></p>
+                <img id="projectImage" src="theEggSite.png" class="eggSiteMobile"/>
+
+            </div>
+
+            <div class="project" id="project04">
+
+                <h2  class="descriptionTitleText centerText">Este site</h2>
+                <p class="descriptionText centerText">Site contendo meu portifólio</p>
+
+            </div>
+
+        </div> 
+
+        <div class="content" id="arts">
+            <h1 class="color">Artes:</h1>
+
+            <button class="button" id="artRight"></button>
+            <button class="button" id="artLeft"></button>
+
+            <div class="project" id="art01">
+
+                <h2  class="descriptionTitleText centerText">The Young Hero</h2>
+                <p class="descriptionText centerText">Desenho feito com auxílio de um Manequim 3D feito por mim mesmo.<br></p>
+                <img src="https://cdna.artstation.com/p/assets/images/images/036/492/376/large/alexandre-borlini-sem-titulo-1.jpg?1617815390" class="artImage">
+
+            </div>
+
+            <div class="project" id="art02">
+
+                <h2  class="descriptionTitleText centerText">Sky Island</h2>
+                <p class="descriptionText centerText">Cenário 3D no estilo Low Poly criado usando Blender.<br>Mais prints desta arte: <a href=https://www.artstation.com/artwork/18brLe>Clique aqui</a></p>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/029/966/587/large/alexandre-borlini-skyisland03.jpg?1599169161" class="artImage">
+
+            </div>
+
+            <div class="project" id="art03">
+
+                <h2  class="descriptionTitleText centerText">Treino de rosto</h2>
+                <p class="descriptionText centerText">Treino com o objetivo de se acostumar a desenhar o rosto em posições simples</p>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/037/736/631/large/alexandre-borlini-treino-face.jpg?1621195020" class="artImage">
+
+            </div>
+
+
+            <div class="project" id="art04">
+
+                <h2  class="descriptionTitleText centerText">Tronco masculino 3D</h2>
+                <p class="descriptionText centerText">Tronco 3D masculino realista com músculos definidos<br>Mais prints do modelo: <a href=https://www.artstation.com/artwork/R3qakm>Clique aqui</a></p>
+                <img src="https://cdna.artstation.com/p/assets/images/images/029/543/760/large/alexandre-borlini-torsoman.jpg?1597877931" class="artImage">
+
+            </div>
+
+        </div>
+
+        <div class="content end" id="contactMe">
+            <h1 class="color">Contato:</h1>
+
+            <p class="descriptionText">Email: borlinialexandre@gmail.com<br><br>
+            Whatsapp: (+55)027998556687<br><br>
+            GitHub: <a href="https://github.com/AlexandreBorlini?tab=repositories">github.com/AlexandreBorlini</a><br><br>
+            Artstation: <a href="https://alexandreborlini.artstation.com/">alexandreborlini.artstation.com</a></p>
+        </div>
+        
+    </body>
+
+</html>
